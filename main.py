@@ -11,7 +11,6 @@ np.random.seed(42)
 
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-device ="cpu"
 cache_path = 'cache'
 ecgs, ids = Dataset.load(cache_path)
 
